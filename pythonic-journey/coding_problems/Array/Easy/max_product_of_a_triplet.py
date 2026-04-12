@@ -34,3 +34,28 @@ def maxProduct(arr):
 if __name__ == "__main__":
     arr = [10, 3, 5, 6, 20]
     print(maxProduct(arr))
+
+
+
+# A Python3 program to find a maximum
+# product of a triplet in an array of integers 
+# using sorting
+
+# Function to find a maximum product of a triplet
+# in array of integers of size n
+def maxProduct(arr):
+    n = len(arr)
+    
+    # Sort the array in ascending order
+    arr.sort()
+
+    # Return the maximum of product of last three
+    # elements and product of first two elements
+    # and last element
+    return max(arr[0] * arr[1] * arr[n - 1],
+               arr[n - 1] * arr[n - 2] * arr[n - 3])
+
+if __name__ == "__main__":
+    arr = [-10, -3, 5, 6, -20]
+    max = maxProduct(arr)
+    print(max)
