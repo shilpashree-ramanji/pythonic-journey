@@ -27,3 +27,4 @@ if __name__ == "__main__":
     sortInWave(arr)
     for i in range(0,len(arr)):
         print (arr[i],end=" ")
+
