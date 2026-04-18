@@ -11,3 +11,8 @@ if __name__ == "__main__":
     sortInWave(arr)
     for i in range(0,len(arr)):
         print (arr[i],end=" ")
+
+    arr = [2,4,6,8,10,12,14,16]
+    sortInWave(arr)
+    for i in range(0,len(arr)):
+        print (arr[i],end=" ")
