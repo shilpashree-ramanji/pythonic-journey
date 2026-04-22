@@ -33,7 +33,7 @@ def findTwoElement(arr):
 
     return [repeating, missing]
 
-if __name__ == "__main__":
-    arr = [3, 1, 3]
-    ans = findTwoElement(arr)
-    print(ans[0], ans[1])
+# if __name__ == "__main__":
+#     arr = [3, 1, 3]
+#     ans = findTwoElement(arr)
+#     print(ans[0], ans[1])
